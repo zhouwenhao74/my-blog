@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#EA5130",
+    "navigationBarTitleText": "百年树袋熊の博客",
+    "navigationBarTextStyle": "black"
+  }
+}
