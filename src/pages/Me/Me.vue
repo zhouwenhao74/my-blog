@@ -1,8 +1,8 @@
 <template>
     <div class="container">
-        <div class="userinfo" @click='login'>
-            <img :src="userinfo.avatarUrl" alt="">
-            <p>{{userinfo.nickName}}</p>
+        <div class="userinfo">
+            <open-data class="userinfo-avatar" type="userAvatarUrl"></open-data>
+            <open-data class="userinfo-name" type="userNickName"></open-data>
         </div>
         <YearProgress></YearProgress>
         <ul class="tab">
@@ -27,14 +27,6 @@ import YearProgress from '@/components/YearProgress'
 export default {
     components: {
     YearProgress
-  },
-  data () {
-    return {
-      userinfo: {
-        avatarUrl: '../../../static/img/unlogin.png',
-        nickName: '点击登录'
-      }
-    }
   }
 }
 </script>
@@ -47,12 +39,21 @@ export default {
 .userinfo{
   margin-top:100rpx;
   text-align:center;
-  img{
-    width: 150rpx;
-    height:150rpx;
-    margin: 20rpx;
-    border-radius: 50%;
-  }
+  display: flex;  
+  flex-direction: column;  
+  align-items: center;  
+}
+.userinfo-avatar {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  margin-top: 40rpx;
+  display: block;
+  overflow: hidden;
+}
+.userinfo-name {
+    margin-top: 10rpx;
+    color: #9caebf;
 }
 .tab .tab-item {
         height: 40px;
