@@ -7,5 +7,22 @@
     "navigationBarBackgroundColor": "#EA5130",
     "navigationBarTitleText": "百年树袋熊の博客",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#EA5149",
+    "list": [
+      {
+        "pagePath": "pages/Me/main",
+        "text": "我的",
+        "iconPath": "static/img/unlogin.png",
+        "selectedIconPath": "static/img/unlogin.png"
+      },
+      {
+        "pagePath": "pages/Me/main",
+        "text": "我的",
+        "iconPath": "static/img/unlogin.png",
+        "selectedIconPath": "static/img/unlogin.png"
+      }
+    ]
   }
 }
