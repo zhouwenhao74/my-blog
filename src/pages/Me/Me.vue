@@ -24,10 +24,19 @@
 
 <script>
 import YearProgress from '@/components/YearProgress'
+import {share}  from '@/utils/share'
 export default {
+    onShareAppMessage(){
+        return share();
+    },
     components: {
     YearProgress
-  }
+  },
+  methods: {
+    onShow () {
+        wx.showShareMenu({withShareTicket: true})
+    }
+  },
 }
 </script>
 
