@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/Me/main"
+    "pages/Me/main",
+    "pages/novelList/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -18,8 +19,8 @@
         "selectedIconPath": "static/img/unlogin.png"
       },
       {
-        "pagePath": "pages/Me/main",
-        "text": "我的",
+        "pagePath": "pages/novelList/main",
+        "text": "小说",
         "iconPath": "static/img/unlogin.png",
         "selectedIconPath": "static/img/unlogin.png"
       }

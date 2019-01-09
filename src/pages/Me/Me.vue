@@ -31,12 +31,7 @@ export default {
     },
     components: {
     YearProgress
-  },
-  methods: {
-    onShow () {
-        wx.showShareMenu({withShareTicket: true})
-    }
-  },
+  }
 }
 </script>
 
