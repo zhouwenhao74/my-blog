@@ -1,10 +1,11 @@
 // 配置项
 
-const host = 'http://localhost:5757'
+const host = 'https://g445z4jn.qcloud.la'
 
 const config = {
   host,
   loginUrl: `${host}/weapp/login`,
-  userUrl: `${host}/weapp/user`
+  userUrl: `${host}/weapp/user`,
+  bookUrl: `${host}/weapp/deom`
 }
 export default config

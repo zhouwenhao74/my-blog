@@ -25,8 +25,13 @@
 <script>
 import YearProgress from '@/components/YearProgress'
 import {share}  from '@/utils/share'
+import qcloud from 'wafer2-client-sdk'
+import {showSuccess, post} from '@/util'
+import config from '@/config'
+
 export default {
     onShareAppMessage(){
+          
         return share();
     },
     components: {

@@ -8,8 +8,9 @@
 		"newFeature": true
 	},
 	"miniprogramRoot": "dist/wx/",
+	"qcloudRoot": "./server/",
 	"compileType": "miniprogram",
-	"appid": "wxf537aba86f1235f0",
+	"appid": "wxacc34910337cb0ea",
 	"projectname": "my-blog",
 	"condition": {
 		"search": {
